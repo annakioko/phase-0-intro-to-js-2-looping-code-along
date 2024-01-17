@@ -8,10 +8,13 @@ function writeCards(names, eventName) {
   return messages;
 }
 
-function countDown(number) {
-  while (number >= 0) {
-    console.log(number);
-    number--;
-  }
+writeCards(names, "birthday");
+
+function countDown(num){
+    
+    while (num >=0){
+        console.log(num--);
+    }
 }
+
 
